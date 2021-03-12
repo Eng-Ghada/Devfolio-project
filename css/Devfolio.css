@@ -1,0 +1,407 @@
+.line
+{
+    width: 3.4rem;
+    height: .4rem;
+    background-color: rgb(0, 120, 255);
+    margin: auto;
+}
+
+
+header
+{
+    background-image: url(../images/intro-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+/*******************************************************************************************************************/
+/*About Section*/
+
+#about .line1
+{
+    width: 6.5rem;
+    height: .2rem;
+    background-color: rgb(0, 120, 255);
+   
+}
+#about ul li
+{
+    list-style-type: none;
+    line-height: 2.5rem;
+}
+
+#about .container
+{
+    background-color: white;
+}
+
+#about
+{
+    background-color: whitesmoke;
+    
+}
+
+.progress
+{
+    height: .7rem;
+}
+
+#about p
+{
+    font-size: 1.3em ;
+    font-weight: 200;
+    color: rgb(85, 85, 85);
+}
+
+#about img
+{
+    width: 85%;
+}
+
+/******************************************************************************************************************/
+/*services Section*/
+#services
+{
+    background-color: whitesmoke;
+}
+
+#services h2
+{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#services .icon1
+{
+    
+    font-size: 1.5rem;
+    width: 7.2rem;
+    height: 7.2rem;
+    border-radius: 50%;
+    background-color: rgb(0, 120, 255);
+    
+}
+
+#services  .icon2
+{
+    background-color: white;
+    width: 6rem;
+    height:6rem;
+    border-radius: 50%;
+    color: black ;
+}
+
+#services i
+{
+    font-size: 2.5rem;
+}
+
+/******************************************************************************************************************/
+/*Numbers Section*/
+#number
+{
+    background-image: url(../images/post-3.jpg);
+    background-attachment: fixed;
+    height: 70vh;
+    position: relative;
+
+}
+
+#number .layer
+{
+    background-color: rgba(0, 120, 255,.7);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+#number .icon1
+{
+    
+    font-size: 1.5rem;
+    width: 5rem;
+    height: 5rem;
+  
+   border-radius: 50%;
+    border-width: .6rem;
+    border-color:rgb(199, 220, 243) ;
+    border-style: solid;
+}
+
+#number  .icon2
+{
+    
+    width: 3rem;
+    height:3rem;
+    border-radius: 50%;
+    color: white ;
+    background-color: transparent;
+}
+
+#number p 
+{
+    color: white;
+}
+.num
+{
+    font-size: 2rem;
+}
+
+#number i
+{
+    font-size: 2rem;
+}
+
+/******************************************************************************************************************/
+/*Portfolio Section*/
+#portfolio .card
+{
+    background-color: whitesmoke;
+    
+}
+
+.image
+{
+    overflow: hidden;
+}
+
+#portfolio .card img
+{
+    transition: scale 1.5s ease-out;
+    overflow: hidden;
+}
+#portfolio .card img:hover
+{
+    scale: 1.5;
+}
+
+#portfolio .icon1 i
+{
+    font-weight: 600;
+}
+
+#portfolio span
+{
+    color: #0C7EFF;
+}
+
+.plus {
+    display:inline-block;
+    width:40px;
+    height:40px;
+    
+    background:
+      linear-gradient(#fff,#fff),
+      linear-gradient(#fff,#fff),
+     black;
+    background-position:center;
+    background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat:no-repeat;
+  }
+
+  .alt 
+  {
+    background:
+      linear-gradient(#0C7EFF,#0C7EFF),
+      linear-gradient(#0C7EFF,#0C7EFF);
+    background-position:center;
+    background-size: 60% 1.5px,1.5px 60%; /*thickness = 2px, length = 50% (25px)*/
+    background-repeat:no-repeat;
+  }
+
+  .radius 
+  {
+    border-radius:50%;
+    border-style: solid;
+    border-color: #0C7EFF;
+    border-width: .12rem;
+  }
+/******************************************************************************************************************/
+/*Testimonials Section*/
+
+#testi
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#testi .container-fluid
+{
+    position: relative;
+}
+#testi .layer
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;    
+    right: 0;
+    background-color:rgba(0, 120, 255,.7);
+}
+#testi img
+{
+    width: 10rem;
+    height: 10rem;
+}
+.icon
+{
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: auto;
+    color: rgb(0, 120, 255);
+    font-size: 2rem;
+}
+
+
+.carousel-indicators li
+{
+    height:7px;
+}
+
+/*****************************************************************************************************************/
+/*Contact Section*/
+
+#contact
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 130vh;
+
+}
+
+#contact .container-fluid
+{
+    position: relative;
+}
+
+#contact .layer
+{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(0, 120, 255,.7);
+    height: 130vh;
+}
+
+#contact .content
+{
+    position: absolute;
+    top:50px;
+    bottom:50px;
+    left:40px;
+    right:40px;
+    background-color: white;
+}
+
+#contact .row
+{
+    background-color: white;
+}
+
+#contact p
+{
+    
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#contact .brands .icon1
+{
+    
+    font-size: 1.5rem;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    background-color: rgb(0, 120, 255);
+    
+}
+
+#contact .brands .icon2
+{
+    background-color: white;
+    width: 2.3rem;
+    height:2.3rem;
+    border-radius: 50%;
+    color: black ;
+    transition: background-color .2s;
+}
+
+#contact .line1
+{
+    width: 6.5rem;
+    height: .2rem;
+    background-color: rgb(0, 120, 255);
+   
+}
+
+#contact .brands .icon2:hover
+{
+    background-color: #0C7EFF;
+}
+
+#contact  .brands .icon2:hover .icon1
+{
+    background-color: #fff;
+}
+/****************************************************************************************************/
+/*Blog Section*/
+#blog h2
+{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card-footer img
+{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.card-footer span
+{
+    text-decoration-style: none;
+    color:rgb(32, 32, 32);
+}
+
+.box
+{
+    background-color: rgb(0, 120, 255);
+    color: white;
+    transform: translateY(-50%);
+    font-size: small;
+    border-radius: 7%;
+}
+/****************************************************************************************************/
+/*Footer Section*/
+footer .container-fluid
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 20%;
+    position: relative;
+    
+}
+
+footer .layer
+{
+    position: absolute;
+    left:0;
+    right:0;
+    background-color:rgba(0, 120, 255,.7);
+    height: 100%;
+}
+
+footer p, a
+{
+    color: white;
+}
